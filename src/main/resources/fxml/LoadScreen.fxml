@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="500.0" styleClass="rootAnchor" stylesheets="@../styles/Loading.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.InitPreloader">
+   <children>
+      <Label layoutX="110.0" layoutY="33.0" styleClass="labelText" stylesheets="@../styles/Loading.css" text="PacManFX" />
+      <Pane layoutY="76.0" prefHeight="300.0" prefWidth="500.0" styleClass="paneLoadingImage" stylesheets="@../styles/Loading.css" />
+      <ProgressBar fx:id="progressBar" layoutX="150.0" layoutY="480.0" prefWidth="200.0" progress="0.0" stylesheets="@../styles/Loading.css" />
+      <Label fx:id="lblLoading" alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="520.0" prefHeight="30.0" prefWidth="200.0" styleClass="labelLoading" stylesheets="@../styles/Loading.css" textFill="WHITE">
+         <font>
+            <Font name="Tahoma" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="110.0" layoutY="600.0" prefHeight="30.0" prefWidth="285.0" styleClass="labelLoading" stylesheets="@../styles/Loading.css" text="PacManFX versión 0.1" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Tahoma" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

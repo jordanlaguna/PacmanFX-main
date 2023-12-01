@@ -1,0 +1,88 @@
+/*
+    Author     : Jocsan Ramirez
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.rootAnchor{
+    -fx-background-color: linear-gradient(to top right, #16222A, #3A6073);
+    -fx-border-width: .2px .4px .4px .4px;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 0 0 18 18;
+    -fx-border-width:5;
+}
+
+.labelText{
+    -fx-font-family:'Press Start 2P';
+    -fx-font-size: 28pt;
+    -fx-text-fill: #FFFD01;
+}
+
+.labelLoading{
+    -fx-font-family:'Press Start 2P';
+    -fx-font-size: 10pt;
+    -fx-text-fill: #FFF;
+}
+
+.paneLoadingImage{
+    -fx-background-image:url('../images/screenImages/animation2.gif');
+    -fx-background-size: 170% 120%;
+}
+.progress-bar{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+}
+.progress-bar .track{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5;
+}
+.progress-bar .bar{
+    -fx-background-color: #FFFD01;
+}
+/*END SPLASH SCREEN*/
+
+/*START MAIN MENU*/
+
+.rootPane{
+    -fx-background-color: linear-gradient(to top right, #16222A, #3A6073);
+    -fx-border-width: .2px .4px .4px .4px;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 0 0 18 18;
+    -fx-border-width:5;
+}
+
+.buttonStart{
+    -fx-background-color:  SkyBlue;
+    -fx-border-color:  black;
+    -fx-text-fill: white;
+    -fx-font-family: 'tahoma', bold;
+    -fx-font-size: 16pt;
+    -fx-cursor: hand;
+}
+
+.buttonTwoStart{
+    -fx-background-color:  orange;
+    -fx-border-color:  black;
+    -fx-text-fill: white;
+    -fx-font-family: 'tahoma', bold;
+    -fx-font-size: 16pt;
+    -fx-cursor: hand;
+}
+.buttonThreeStart{
+    -fx-background-color:  pink;
+    -fx-border-color:  black;
+    -fx-text-fill: white;
+    -fx-font-family: 'tahoma', bold;
+    -fx-font-size: 16pt;
+    -fx-cursor: hand;
+}
+.buttonFourStart{
+    -fx-background-color:  red;
+    -fx-border-color:  black;
+    -fx-text-fill: white;
+    -fx-font-family: 'tahoma', bold;
+    -fx-font-size: 16pt;
+    -fx-cursor: hand;
+}
+
+

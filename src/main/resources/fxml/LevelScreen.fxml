@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<ScrollPane fitToWidth="true" styleClass="scroll" stylesheets="@../styles/Game.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LevelScreenController">
+
+   <content>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="650.0" prefWidth="500.0" styleClass="scroll" stylesheets="@../styles/Game.css">
+         <children>
+            <AnchorPane prefHeight="650.0" prefWidth="500.0" stylesheets="@../styles/Game.css">
+               <children>
+                  <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="190.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/screenImages/pacman.png" />
+                     </image>
+                  </ImageView>
+                  <Label contentDisplay="CENTER" layoutX="110.0" layoutY="120.0" prefHeight="60.0" prefWidth="281.0" styleClass="labelText" stylesheets="@../styles/Game.css" text="PAC-MAN" />
+                  <ToggleButton layoutX="130.0" layoutY="180.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/1.jokerLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="330.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/2.SimpsonsLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="480.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/3.ironmanLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="630.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/4.spidermanLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="780.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/5.batmanLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="930.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/6.superManLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="1080.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/7.deadpoolLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="1230.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/8.onepieceLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="1380.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/9.narutoLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <ToggleButton layoutX="130.0" layoutY="1530.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" styleClass="toggleButton" stylesheets="@../styles/Game.css">
+                     <graphic>
+                        <ImageView fitHeight="200.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/levelImages/10.dragonLevel.png" />
+                           </image>
+                           <viewport>
+                              <Rectangle2D />
+                           </viewport>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
+                  <Button fx:id="btnClose" mnemonicParsing="false" onMouseClicked="#close" prefHeight="30.0" prefWidth="40.0" styleClass="buttonExit" stylesheets="@../styles/Game.css" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <graphic>
+                        <FontIcon iconColor="WHITE" iconLiteral="fa-close" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </content>
+
+</ScrollPane>
